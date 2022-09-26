@@ -1,0 +1,21 @@
+{
+    "name": "mamunur6286/currex",
+    "description": "This is an currency exchange package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mamunur6286\\Currex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Mamunur Rashid",
+            "email": "mamunur6286@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
