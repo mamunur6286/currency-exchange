@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExchangeController;
 use Illuminate\Support\Facades\Route;
 use Mamunur6286\Currex\Convert;
 
@@ -16,8 +17,4 @@ use Mamunur6286\Currex\Convert;
 
 Route::get('/', function () {
     return view('welcome');
-});
-
-Route::get('/inspire', function(Convert $inspire) {
-    return $inspire->justDoIt();
 });
